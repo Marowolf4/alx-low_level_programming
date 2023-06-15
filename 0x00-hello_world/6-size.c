@@ -1,5 +1,5 @@
 #include <stdio.h>
-\* main *\
+/* main */
 int main(void)
 { /* your mom*/
 	printf("Size of a char: %d byte(s)\n", sizeof(char));
