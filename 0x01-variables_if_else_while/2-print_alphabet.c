@@ -6,9 +6,11 @@
 int main(void)
 {
 	char m = 'a';
-	for (int i = 0; i < 26; i++) {
+	int i = 0;
+	while (i < 26) {
 		putchar(m + i);
 		if (i == 25) putchar('\n');
+		i++;
 	}
 	return(0);
 }
