@@ -5,10 +5,9 @@
 
 int main(void)
 {
-	int i = 0;
-	char m = '0';
-	while (i < 10) {
-		putchar(m+i);
+	int i = 48;
+	while (i < 58) {
+		putchar(i);
 		i++;
 	}
 	putchar('\n');
