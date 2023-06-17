@@ -1,9 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-#main is a function
+/*main is a function */
 int main(void)
-{ #main is a function
+{ /*main is a function */
 	int n;
 
 	srand(time(0));
