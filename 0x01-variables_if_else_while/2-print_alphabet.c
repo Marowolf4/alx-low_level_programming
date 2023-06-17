@@ -15,7 +15,8 @@ int main(void)
 	while (i < 26)
 		{
 		putchar(m + i);
-		if (i == 25) putchar('\n');
+		if (i == 25)
+			putchar('\n');
 		i++;
 	}
 	return (0);
