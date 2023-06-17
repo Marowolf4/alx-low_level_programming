@@ -21,7 +21,7 @@ int main(void)
 	while (i < 26)
 	{
 		char m = 'A';
-	
+
 		putchar(m + i);
 		if (i == 25)
 			putchar('\n');
