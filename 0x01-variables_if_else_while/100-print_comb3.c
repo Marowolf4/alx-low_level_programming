@@ -18,7 +18,7 @@ int main(void)
 		{
 			if (i != j) {
 				if (i * 2 + j < j * 2 + i) {
-					if (i != 0 && j != 0) {
+					if (!(i == 48 && j == 49)) {
 						putchar(',');
 						putchar(' ');
 					}
