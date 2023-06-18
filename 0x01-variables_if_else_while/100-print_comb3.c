@@ -8,9 +8,6 @@
 */
 int main(void)
 {
-	int c = 48;
-	printf("%c", c);
-
 	int i = 48;
 	int j = 48;
 
