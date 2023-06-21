@@ -6,3 +6,7 @@
 * Description: Does my stuff explained.
 * Return: always 0 always void
 */
+int _abs(int n)
+{
+	return abs(n);
+}
