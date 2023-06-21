@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* print_last_digit - does my stuff
+* print_alphabet_x10 - does my stuff
 * @n: its mine damnit
 * Description: Does my stuff explained.
 * Return: always 0 always void
