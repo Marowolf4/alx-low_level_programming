@@ -2,7 +2,7 @@
 
 /**
 * _islower - does my stuff
-* c - kys
+* 'c' - kys
 * Description: Does my stuff explained.
 * Return: always 0 always void
 */
