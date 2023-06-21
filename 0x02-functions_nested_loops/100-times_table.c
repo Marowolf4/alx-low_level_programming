@@ -16,7 +16,7 @@ void print_times_table(int n)
 		j = 0;
 		putchar(j + '0');
 		j = 1;
-		while (j < 10)
+		while (j < n+1)
 		{
 			if (i * j < 10)
 			{
