@@ -1,4 +1,5 @@
 #include "main.h"
+#include "_putchar.c"
 
 /**
  * main - check the code
@@ -14,10 +15,10 @@ void print_alphabet_x10(void)
 		int a = 97;
 		while (a < 123)
 		{
-			putchar(a);
+			_putchar(a);
 			a++;
 		}
-		putchar('\n');
+		_putchar('\n');
 		i++;
 	}
 }
