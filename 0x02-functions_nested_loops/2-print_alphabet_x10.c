@@ -7,11 +7,17 @@
  */
 void print_alphabet(void)
 {
-	int a = 97;
-	while (a < 123)
+	int i = 1;
+
+	while (i <= 10)
 	{
-		putchar(a);
-		a++;
+		int a = 97;
+		while (a < 123)
+		{
+			putchar(a);
+			a++;
+		}
+		putchar('\n');
+		i++;
 	}
-	putchar('\n');
 }
