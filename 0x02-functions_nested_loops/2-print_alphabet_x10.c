@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
- */
+* print_last_digit - does my stuff
+* @n: its mine damnit
+* Description: Does my stuff explained.
+* Return: always 0 always void
+*/
 void print_alphabet_x10(void)
 {
 	int i = 1;
