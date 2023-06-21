@@ -11,7 +11,8 @@ void print_times_table(int n)
 	int i = 0;
 	int j = 0;
 
-	if (n <= 15) {
+	if (n <= 15)
+	{
 		while (i < n + 1)
 		{
 			j = 0;
@@ -36,8 +37,8 @@ void print_times_table(int n)
 			putchar('\n');
 			i++;
 		}
-	}
-	else 
+}
+else 
 	{
 	}
 }
