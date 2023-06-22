@@ -8,23 +8,20 @@
 */
 int main(void)
 {
-	long int i = 0;
+	long int sum = 2;
 	long int j = 3;
 	long int k = 2;
 	long int l = 1;
 
-	printf("2\n");
 	while (j <= 4000000)
 	{
 		j = l + k;
 		if (j % 2 == 0)
-		{
-			printf("%ld\n", j);
-		}
+			sum = sum + j;
 		l = k;
 		k = j;
-		i++;
 	}
+	printf("%ld", sum);
 	putchar('\n');
 	return (0);
 }
