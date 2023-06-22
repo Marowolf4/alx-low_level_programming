@@ -16,11 +16,11 @@ int main(void)
 	printf("1, 2");
 	while (i < 98)
 	{
-		j = abs(l + k);
-		printf(", %d", abs(j));
-		l = abs(k);
-		k = abs(j);
-		k = abs(j);
+		j = l + k;
+		printf(", %d", j);
+		l = k;
+		k = j;
+		k = j;
 		i++;
 	}
 	putchar('\n');
