@@ -1,5 +1,9 @@
 #include "main.h"
 
+/**
+ * main - kys
+ * Return: 0
+ */
 int main(void)
 {
 	int i = 0;
