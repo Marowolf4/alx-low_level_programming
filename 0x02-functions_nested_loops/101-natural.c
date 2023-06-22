@@ -5,7 +5,7 @@
 * Description: Does my stuff explained.
 * Return: always 0 always void
 */
-int main()
+int main(void)
 {
 	int i = 1;
 	int sum = 0;
