@@ -13,8 +13,8 @@ int main(void)
 	int k = 2;
 	int l = 1;
 
-	printf("0, 1, 2");
-	while (i < 97)
+	printf("1, 2");
+	while (i < 98)
 	{
 		j = abs(l + k);
 		printf(", %d", abs(j));
