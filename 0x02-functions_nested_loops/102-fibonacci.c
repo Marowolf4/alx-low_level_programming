@@ -8,10 +8,10 @@
 */
 int main(void)
 {
-	int i = 0;
-	int j = 3;
-	int k = 2;
-	int l = 1;
+	long int i = 0;
+	long int j = 3;
+	long int k = 2;
+	long int l = 1;
 
 	printf("1, 2");
 	while (i < 98)
