@@ -5,7 +5,7 @@
 * Description: Does my stuff explained.
 * Return: always 0 always void
 */
-void main()
+int main()
 {
 	int i = 1;
 	int sum = 0;
@@ -19,4 +19,5 @@ void main()
 		i++;
 	}
 	printf("%d", sum);
+	return (0);
 }
