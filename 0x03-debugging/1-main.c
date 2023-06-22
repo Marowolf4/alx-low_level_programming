@@ -1,5 +1,3 @@
-#include "main.h"
-
 /**
  * main - kys
  * Return: 0
