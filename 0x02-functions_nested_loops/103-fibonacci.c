@@ -8,10 +8,10 @@
 */
 int main(void)
 {
-	long long int i = 0;
-	long long int j = 3;
-	long long int k = 2;
-	long long int l = 1;
+	long int i = 0;
+	long int j = 3;
+	long int k = 2;
+	long int l = 1;
 
 	printf("2\n");
 	while (j <= 4000000)
@@ -19,7 +19,7 @@ int main(void)
 		j = l + k;
 		if (j % 2 == 0)
 		{
-			printf("%lld\n", j);
+			printf("%ld\n", j);
 		}
 		l = k;
 		k = j;
