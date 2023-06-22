@@ -6,7 +6,7 @@
 * Description: Does my stuff explained.
 * Return: always 0 always void
 */
-void main(void)
+int main(void)
 {
 	int i = 0;
 	int j = 3;
@@ -24,4 +24,5 @@ void main(void)
 		i++;
 	}
 	putchar('\n');
+	return (0);
 }
