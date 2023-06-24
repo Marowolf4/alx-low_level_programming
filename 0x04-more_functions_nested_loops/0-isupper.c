@@ -5,7 +5,7 @@
  *
  * Return: Always 0.
  */
-int _isupper(char c) 
+int _isupper(char c)
 {
 	if (c > 64 && c < 91)
 	{
