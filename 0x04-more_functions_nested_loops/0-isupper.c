@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/**
+ * _isupper - check the code.
+ *
+ * Return: Always 0.
+ */
+int _isupper(char c) 
+{
+	char c;
+	if (c > 65 && c < 91)
+	{
+		return (1);
+	} else
+		return (0);
+}
