@@ -5,4 +5,4 @@ int _isupper(char c);
 int _isdigit(int c);
 int mul(int a, int b);
 void print_numbers(void);
-4-print_most_numbers.c
+void print_most_numbers(void);
