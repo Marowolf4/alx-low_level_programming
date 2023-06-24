@@ -2,7 +2,7 @@
 
 /**
  * _isupper - check the code.
- *
+ * @c: kys
  * Return: Always 0.
  */
 int _isupper(char c)
