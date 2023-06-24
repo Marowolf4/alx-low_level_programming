@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isdigit - check the code.
+ * print_numbers - check the code.
  * Return: Always 0.
  */
 void print_numbers(void)
@@ -10,6 +10,7 @@ void print_numbers(void)
 	while (i < 10)
 	{
 		putchar(i + '0');
+		i++
 	}
 	putchar('\n');
 }
