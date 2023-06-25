@@ -8,8 +8,8 @@
 */
 int main()
 {
-	__int64 i = 2;
-	__int64 n = 612852475143;
+	__int64_t i = 2;
+	__int64_t n = 612852475143;
 
 	while (n / 2 > i)
 	{
@@ -20,6 +20,6 @@ int main()
 		else
 			i++;
 	}
-	printf("%lld\n", n);
+	printf("%d\n", n);
 	return (0);
 }
