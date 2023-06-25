@@ -25,7 +25,6 @@ void print_number(int n)
 {
 	int i = 0;
 	int k = 0;
-	int power;
 
 	while (k != n)
 	{
