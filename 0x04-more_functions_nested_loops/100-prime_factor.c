@@ -1,11 +1,12 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include <stdint.h>
 
 /*
- * main - check the code
- * Return: Always 0.
- */
-int main(void)
+* main - check the code
+* Return: Always 0.
+*/
+int main()
 {
 	long long int i = 2;
 	long long int n = 612852475143;
@@ -19,6 +20,6 @@ int main(void)
 		else
 			i++;
 	}
-	printf("%lli\n", n);
-  return (0);
+	printf("%lld\n", n);
+	return (0);
 }
