@@ -18,7 +18,9 @@ void print_square(int size)
 			putchar('#');
 			j++;
 		}
-		putchar('\n');
+		if (i != size - 1)
+			putchar('\n');
 		i++;
 	}
+	putchar('\n');
 }
