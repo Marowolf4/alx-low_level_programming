@@ -5,7 +5,7 @@
 * pow - gonna KILL MYSELF
 * Return: braindead
 */
-int pow(int b, int e)
+int powr(int b, int e)
 {
 	int i = 0;
 	int n = 1;
