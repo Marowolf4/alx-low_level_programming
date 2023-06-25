@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /*
-* pow - gonna KILL MYSELF
+* powr - gonna KILL MYSELF
 * Return: braindead
 */
 int powr(int b, int e)
@@ -28,11 +28,11 @@ void print_number(int n)
 	while (k != n)
 	{
 		i++;
-		k = n % pow(10, i);
+		k = n % powr(10, i);
 	}
 	while (i > 0)
 	{
-		putchar((n % pow(10, i))/pow(10, i-1) + '0');
+		putchar((n % powr(10, i))/powr(10, i-1) + '0');
 		i--;
 	}
 	putchar('\n');
