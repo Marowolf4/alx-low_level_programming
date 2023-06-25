@@ -23,4 +23,5 @@ int main()
 		putchar(' ');
 		i++;
 	}
+	return (0);
 }
