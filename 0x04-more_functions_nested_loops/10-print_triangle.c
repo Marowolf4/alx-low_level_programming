@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * print_triangle - check the code
+ * @size: kys
  */
 void print_triangle(int size)
 {
@@ -9,16 +10,16 @@ void print_triangle(int size)
 	int j = 1;
 	int k = 1;
 
-	while (i <= n)
+	while (i <= size)
 	{
 		j = 1;
 		k = n;
-		while (j <= n - i)
+		while (j <= size - i)
 		{
 			putchar(' ');
 			j++;
 		}
-		while (k > n - i)
+		while (k > size - i)
 		{
 			putchar('#');
 			k--;
