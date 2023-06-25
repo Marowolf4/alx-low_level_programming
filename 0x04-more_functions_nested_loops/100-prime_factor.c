@@ -8,8 +8,8 @@
 */
 int main()
 {
-	long long int i = 2;
-	long long int n = 612852475143;
+	__int64 i = 2;
+	__int64 n = 612852475143;
 
 	while (n / 2 > i)
 	{
