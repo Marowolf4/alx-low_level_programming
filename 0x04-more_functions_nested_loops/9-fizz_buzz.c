@@ -22,8 +22,8 @@ int main()
 			printf("%d", i);
 		if (i != 100)
 			putchar(' ');
-		putchar('\n');
 		i++;
 	}
+	putchar('\n');
 	return (0);
 }
