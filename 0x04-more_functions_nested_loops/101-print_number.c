@@ -35,5 +35,4 @@ void print_number(int n)
 		putchar((n % powr(10, i))/powr(10, i-1) + '0');
 		i--;
 	}
-	putchar('\n');
 }
