@@ -18,17 +18,16 @@ int pow(int b, int e)
 	return (n);
 }
 /*
-* main - gonna KILL MYSELF
+* print_number - gonna KILL MYSELF
 * Return: braindead
 */
-int main()
+void print_number(int n)
 {
-	int n = 5890;
 	int i = 0;
 	int k = 0;
 	int power;
 
-	while (k != 5890)
+	while (k != n)
 	{
 		i++;
 		k = n % pow(10, i);
