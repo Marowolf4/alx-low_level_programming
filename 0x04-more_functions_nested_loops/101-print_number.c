@@ -30,12 +30,12 @@ void print_number(int n)
 		k = n % powr(10, i);
 	}
 	if (n < 0)
-		putchar('-');
+		_putchar('-');
 	while (i > 0)
 	{
-		putchar((abs(n) % powr(10, i)) / powr(10, i - 1) + '0');
+		_putchar((abs(n) % powr(10, i)) / powr(10, i - 1) + '0');
 		i--;
 	}
 	if (n == 0)
-		putchar('0');
+		_putchar('0');
 }
