@@ -13,7 +13,7 @@ void print_triangle(int size)
 	while (i <= size)
 	{
 		j = 1;
-		k = n;
+		k = size;
 		while (j <= size - i)
 		{
 			putchar(' ');
