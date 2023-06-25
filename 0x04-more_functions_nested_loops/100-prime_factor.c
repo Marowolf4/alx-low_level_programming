@@ -5,7 +5,7 @@
  * main - check the code
  * Return: Always 0.
  */
-int main()
+int main(void)
 {
 	long long int i = 2;
 	long long int n = 612852475143;
