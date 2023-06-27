@@ -2,7 +2,7 @@
 
 /**
  * rev_string - check the code
- * @s:
+ * @s: kys
  * Return: Always 0.
  */
 void rev_string(char *s)
