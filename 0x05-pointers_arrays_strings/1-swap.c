@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - check the code 
+ * swap_int - check the code
  * @a: kys
  * @b: kys
  * Return: Always 0.
