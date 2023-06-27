@@ -7,11 +7,11 @@
  */
 void print_rev(char *s)
 {
-	long unsigned int j = strlen(str);
+	long unsigned int j = strlen(s);
 
 	while (j > 0)
 	{
-		putchar(i[j - 1]);
+		putchar(s[j - 1]);
 		j--;
 	}
 	putchar('\n');
