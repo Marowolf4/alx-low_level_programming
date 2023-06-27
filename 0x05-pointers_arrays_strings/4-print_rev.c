@@ -7,7 +7,7 @@
  */
 void print_rev(char *s)
 {
-	long unsigned int j = strlen(s);
+	unsigned long int j = strlen(s);
 
 	while (j > 0)
 	{
