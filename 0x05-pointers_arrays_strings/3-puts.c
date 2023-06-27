@@ -9,7 +9,7 @@ void _puts(char *str)
 {
 	int j = 0;
 
-	while (j < strlen(*str))
+	while (j < strlen(str))
 	{
 		putchar(str[j]);
 		j++;
