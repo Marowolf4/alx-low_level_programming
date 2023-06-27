@@ -10,6 +10,7 @@ void rev_string(char *s)
 	char z[999];
 	int j = strlen(s);
 	int i = 0;
+
 	while (i < j)
 	{
 		z[i] = s[i];
