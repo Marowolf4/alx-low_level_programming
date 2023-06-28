@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - check the code for
+ * _strcpy - check the code for
  * @dest: kys
  * @src: kys
  * Return: Always 0.
